@@ -1,0 +1,52 @@
+
+.line1{
+    display: flex;
+}
+.line2{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#box-1 {
+    background-color:rgb(61, 58, 165);
+}
+#box-2 {
+    background-color:rgb(47, 143, 90);
+}
+#box-3 {
+    background-color:rgb(189, 67, 104);
+}
+#box-4 {
+    background-color:rgb(240, 39, 39);
+}
+#box-5 {
+    background-color:rgb(192, 93, 27);
+}
+#box-6 {
+    background-color:rgb(134, 9, 46);
+}
+#box-7 {
+    background-color:rgb(190, 199, 114);
+}
+#box-8 {
+    background-color:rgb(133, 104, 201);
+}
+
+@media (max-width:400px){
+    .line1{
+        flex-direction: column;
+    }
+}
+@media (max-width:400px){
+    .line2{
+        flex-direction: column;
+    }
+}
+
+
